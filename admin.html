@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 style="text-align:center;">Admin Panel</h1>
+
+<div class="admin-container">
+    <input type="text" id="productName" placeholder="Product Name">
+    <input type="number" id="productPrice" placeholder="Price">
+    <input type="text" id="productImage" placeholder="Image URL (or images/ring.png)">
+    <button onclick="addProduct()">Add Product</button>
+
+    <h2>Products</h2>
+    <div id="adminProducts"></div>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
